@@ -3,7 +3,7 @@
 This guide provides a checklist for contributing new cleanvision examples.
 
 - Ensure that the notebook contains cell outputs and that they look as expected in Jupyter notebook and **on GitHub**.
-  Note this is different than our tutorials in the main cleanlab repository (where notebook cells should not be
+  Note this is different than our tutorials in the main cleanvision repository (where notebook cells should not be
   executed)! Unlike the tutorials, we want examples notebooks to also look good in GitHub's viewer (which has limited
   rendering functionality, so avoid things like `<div>` that GitHub's viewer does not render properly).
 
@@ -61,8 +61,8 @@ can [compare](https://stackoverflow.com/questions/41573587/what-is-the-differenc
 the tools and choose what is right for you. Here, we'll explain how to get set up with venv, which is built in to Python
 
 ```shell
-python3 -m venv cleanvision-examples  # create a new virtual environment in the directory ENV
-source cleanvision-examples/bin/activate  # switch to using the virtual environment
+python3 -m venv cleanvision-examples
+source cleanvision-examples/bin/activate
 pip install --upgrade pip
 pip install -r requirements-dev.txt
 python -m ipykernel install --user --name=cleanvision-examples
