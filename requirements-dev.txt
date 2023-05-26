@@ -6,3 +6,5 @@ pandas>=1.1.5
 tqdm>=4.53.0
 ipykernel==6.8.0
 ipywidgets==7.6.5
+jupyterlab
+black[jupyter]
