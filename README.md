@@ -8,7 +8,7 @@ of [CleanVision](https://github.com/cleanlab/cleanvision/) on following datasets
 - [CIFAR10](cifar10.ipynb)
 - [Food-101](food101.ipynb)
 
-For a comprehensive quick-start tutorial on different ways to use this package,
+For a quick-start tutorial on different ways to use this package,
 check [Tutorials](https://cleanvision.readthedocs.io/en/latest/tutorials/tutorial.html#)
 
 ## Installation
