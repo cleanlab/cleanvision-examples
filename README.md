@@ -1,9 +1,31 @@
 # cleanvision-examples
 
-Notebooks demonstrating example applications of the [cleanvision](https://github.com/cleanlab/cleanvision/) library.
+The notebooks in this repository demonstrate the example applications
+of [CleanVision](https://github.com/cleanlab/cleanvision/) on following datasets.
 
-For a comprehensive quick-start tutorial on different ways to use this package, start with: [tutorial.ipynb](tutorial.ipynb). 
+- [Caltech-256](caltech256.ipynb)
+- [Caltech-UCSD Birds-200-2011 (CUB-200-2011)](cub200.ipynb)
+- [CIFAR10](cifar10.ipynb)
+- [Food-101](food101.ipynb)
 
-Unless stated otherwise, notebooks here correspond to the [latest bleeding-edge version](https://github.com/cleanlab/cleanvision/tree/main/) of the CleanVision package. These notebooks install this [latest version](https://github.com/cleanlab/cleanvision/tree/main/) of CleanVision (which is undergoing rapid development).
+For a quick-start tutorial on different ways to use this package,
+check [Tutorials](https://cleanvision.readthedocs.io/en/latest/tutorials/tutorial.html#)
 
-You can instead install the most recent stable version of the package via: `pip install cleanvision`
+## Installation
+
+You can install the most recent stable version of the package via
+
+```shell
+pip install cleanvision
+```
+
+More information on installation can be found [here](https://cleanvision.readthedocs.io/en/latest/#installation).
+
+Some recently-added examples may require the developer version of the package, which you can install via:
+
+```shell
+pip install git+https://github.com/cleanlab/cleanvision.git
+```
+
+
+
