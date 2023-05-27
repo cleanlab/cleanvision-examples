@@ -21,7 +21,7 @@ pip install cleanvision
 
 More information on installation can be found [here](https://cleanvision.readthedocs.io/en/latest/#installation).
 
-To install the bleeding edge version of the repo, use
+Some recently-added examples may require the developer version of the package, which you can install via:
 
 ```shell
 pip install git+https://github.com/cleanlab/cleanvision.git
