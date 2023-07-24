@@ -11,6 +11,8 @@ of [CleanVision](https://github.com/cleanlab/cleanvision/) on following datasets
 For a quick-start tutorial on different ways to use this package,
 check [Tutorials](https://cleanvision.readthedocs.io/en/latest/tutorials/tutorial.html#)
 
+[cloud_dataset.ipynb](cloud_dataset.ipynb) demonstrates how to run CleanVision on a dataset residing in s3 storage and also has instructions on how to use it for datasets in Azure and Google storage.
+
 ## Installation
 
 You can install the most recent stable version of the package via
